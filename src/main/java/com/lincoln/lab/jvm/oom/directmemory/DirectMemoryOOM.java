@@ -4,6 +4,12 @@ import java.lang.reflect.Field;
 
 import sun.misc.Unsafe;
 
+/**
+ * -Xmx20M -XX:MaxDirectMemorySize=10M
+ * 
+ * @author geng.lin
+ * 
+ */
 public class DirectMemoryOOM {
 
     private static final long _1MB = 1024 * 1024;
